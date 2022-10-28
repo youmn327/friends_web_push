@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="르탄이 - 프로필 링크" />
+        <meta property="og:description" content="어서와 코딩은 처음이지?" />
+        <meta property="og:image" content="공유할 이미지" />
+        <title>3대 운동</title>
+        <style>
+            .DY_title{
+                color: blue;
+            }
+            .SBD_title {
+                color: red;
+            }
+            /* .SBD_title > a{
+                color: red;
+            } */
+            .press_title > a {
+                line-height: 75px;
+            }
+
+            .press_title > .red {
+                color:red;
+                
+            }
+
+            .press_title > .blue {
+                color:blue;
+            }
+
+            .press_title > .black {
+                color:black;
+            }
+            
+            .press_title > .aqua {
+                color:aqua;
+            }
+
+
+            .press_title > .body_a {
+                color: blue;
+                
+            }
+            .body_title{
+                background-color: black;
+                color: white;
+                height: auto;
+
+            } 
+            .profile{
+             display: flex;
+            background-color: red;
+            width:150px;
+            height:150px;
+            border-radius: 50%;
+            border: 2px solid green;
+            margin: 0px auto 0px auto;
+            
+
+            }
+            .profile > .profile_img{
+            margin: auto;
+            background-color: white;
+            width:90%;
+            height:90%;
+            border-radius: 50%;
+            }
+            
+            .섹스1 > img{
+                float:left;
+                width: 33%;
+                height: 615px;
+            }
+            .wrap{
+                float : left;
+                background-color: green;
+                width: 34%;
+                height: 615px;
+                /* margin: 30px auto 0px auto; */
+                /* overflow: auto; */
+            }
+            .섹스2 > img{
+                float : right;
+                width: 33%;
+                height: 615px;
+            }
+            .real_body{
+                text-align: center;
+                
+            }  
+        </style>
+
+    </head>
+    <body class="body_title">
+        <a class ="섹스1" href="http://www.ksportsedu.com/"><img src="data:image/jpeg;base64,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" width="300"/></a>
+        
+        <div class="wrap"> 
+        <div class="profile">
+            <img class = "profile_img" src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSP9PnCqVtzriM2FxluERDUIjZUTJ323zuPBMBlvZVN0jVIuubWdQbbly2KXc9IzwzLrylDwozWMA&usqp=CAc" alt="">
+        </div>
+        
+        <div class="real_body">
+        <h1 class = "DY_title">DY의 DIY 헬스 </h1>
+        <!-- 우리가 웹페이지에서 볼 수 있는 부분을 세팅하는 곳이죠.
+             우리가 집에서 눈에 볼 수 있는 집 구조들을 설정하는 곳이죠.-->
+             
+
+                <h2 class="press_title" ><a class = "red" target="_blank" href="https://www.youtube.com/watch?v=ngg87b-UCz4">S는 스쿼트입니다</a>
+                <p></p>
+                <a class = "blue" target="_blank" href="https://www.youtube.com/watch?v=A2kHURY746E">B는 벤치프레스 입니다</a>
+                <p></p>
+                <a class = "black" target="_blank" href="https://www.youtube.com/watch?v=EBjYQeeBI-0">D는 데드리프트 입니다</a>
+                <p></p>
+                <a class = "aqua" target="_blank" href="https://www.youtube.com/watch?v=k8fodIR_mgg">운동 동기부여</a>
+                </h2>
+                
+        </div>
+        
+        </div>
+        <a class="섹스2" href="https://www.youtube.com/watch?v=qWZAXjKcr_0"><img src="https://res.heraldm.com/phpwas/restmb_idxmake.php?idx=621&simg=/content/image/2016/11/10/20161110000932_0.jpg"/></a>
+           
+            
+             
+</html>
